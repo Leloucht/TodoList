@@ -1,0 +1,42 @@
+
+.monitor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 1.25rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.countTask {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.countTask > span {
+    height: 1.25rem;
+    width: 2rem;
+    margin-left: .5rem;
+    font-size: .75rem;
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    padding: .125rem .5rem;
+    border-radius: 50px;
+}
+
+.completedTask {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.completedTask > span {
+    height: 1.25rem;
+    width: 1.5rem;
+    margin-left: .5rem;
+    font-size: .75rem;
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    padding: .125rem .5rem;
+    border-radius: 50px;
+}
